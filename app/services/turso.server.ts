@@ -9,8 +9,8 @@ export const createTursoPrismaClient = (url: string, authToken: string) => {
   })
   const adapter = new PrismaLibSQL(libsql)
   const prisma = new PrismaClient({
+    log: [],
     adapter,
-    log: ['query'],
   })
   return prisma
 }
