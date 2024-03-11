@@ -9,7 +9,7 @@
     "dev": "remix vite:dev",
     "lint": "biome lint .",
     "format": "prettier --cache -c .",
-    "start": "wrangler pages dev ./build/client",
+    "start": "wrangler pages dev --node-compat ./build/client",
     "typecheck": "tsc",
     "validate": "run-p lint format typecheck",
     "typegen": "wrangler types",
