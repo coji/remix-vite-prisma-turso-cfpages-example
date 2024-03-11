@@ -13,7 +13,9 @@ export default function Layout() {
       <main>
         <Card>
           <CardHeader>
-            <CardTitle>Remix / Prisma / Turso / Vercel Example</CardTitle>
+            <CardTitle>
+              Remix / Prisma / Turso / Cloudflare Pages Example
+            </CardTitle>
             <CardDescription>turso は良さそう</CardDescription>
           </CardHeader>
           <CardContent>
