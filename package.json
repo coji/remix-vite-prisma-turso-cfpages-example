@@ -12,7 +12,8 @@
     "start": "wrangler pages dev ./build/client",
     "typecheck": "tsc",
     "validate": "run-p lint format typecheck",
-    "typegen": "wrangler types"
+    "typegen": "wrangler types",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@conform-to/react": "^1.0.3",
