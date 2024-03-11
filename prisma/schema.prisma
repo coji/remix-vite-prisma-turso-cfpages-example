@@ -1,0 +1,26 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../data/dev.db"
+}
+
+model SampleOrder {
+  id         String  @id @default(cuid())
+  region     String?
+  name       String
+  email      String
+  zip        String
+  country    String
+  prefecture String
+  city       String
+  address    String
+  phone      String
+  note       String?
+  createdAt  String  @map("created_at")
+
+  @@map("sample_orders")
+}

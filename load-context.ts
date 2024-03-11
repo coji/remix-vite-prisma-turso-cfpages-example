@@ -5,8 +5,10 @@ import type { PlatformProxy } from 'wrangler'
 // into the global `Env` interface.
 // Need this empty interface so that typechecking passes
 // even if no `wrangler.toml` exists.
-// biome-ignore lint/complexity/noBannedTypes: <explanation>
-type Env = {}
+type Env = {
+  TURSO_DATABASE_URL: string
+  TURSO_AUTH_TOKEN: string
+}
 
 type Cloudflare = Omit<PlatformProxy<Env>, 'dispose'>
 
