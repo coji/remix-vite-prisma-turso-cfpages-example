@@ -16,12 +16,12 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@conform-to/react": "^1.0.3",
-    "@conform-to/zod": "^1.0.3",
+    "@conform-to/react": "^1.0.4",
+    "@conform-to/zod": "^1.0.4",
     "@faker-js/faker": "^8.4.1",
-    "@libsql/client": "^0.5.3",
-    "@prisma/adapter-libsql": "5.11.0-dev.46",
-    "@prisma/client": "5.11.0-dev.46",
+    "@libsql/client": "^0.5.6",
+    "@prisma/adapter-libsql": "5.11.0",
+    "@prisma/client": "5.11.0",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-tabs": "^1.0.4",
@@ -32,10 +32,10 @@
     "clsx": "^2.1.0",
     "dayjs": "^1.11.10",
     "isbot": "^5.1.1",
-    "lucide-react": "^0.354.0",
-    "miniflare": "^3.20240304.0",
-    "next-themes": "^0.2.1",
-    "prisma": "5.11.0-dev.46",
+    "lucide-react": "^0.356.0",
+    "miniflare": "^3.20240304.1",
+    "next-themes": "^0.3.0",
+    "prisma": "5.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-twc": "^1.4.1",
@@ -46,10 +46,10 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.0",
-    "@cloudflare/workers-types": "^4.20240222.0",
+    "@biomejs/biome": "^1.6.1",
+    "@cloudflare/workers-types": "^4.20240312.0",
     "@remix-run/dev": "^2.8.1",
-    "@types/react": "^18.2.64",
+    "@types/react": "^18.2.65",
     "@types/react-dom": "^18.2.21",
     "node-fetch": "^3.3.2",
     "npm-run-all": "^4.1.5",
@@ -59,9 +59,9 @@
     "prettier-plugin-tailwindcss": "^0.5.12",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.2",
-    "vite": "^5.1.5",
+    "vite": "^5.1.6",
     "vite-tsconfig-paths": "^4.3.1",
-    "wrangler": "^3.32.0"
+    "wrangler": "^3.33.0"
   },
   "engines": {
     "node": ">=18.0.0"
